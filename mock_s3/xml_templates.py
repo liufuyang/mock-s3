@@ -1,6 +1,6 @@
 buckets_xml = '''\
 <?xml version="1.0" encoding="UTF-8"?>
-<ListAllMyBucketsResult xmlns="http://doc.s3.amazonaws.com/2006-03-01">
+<ListAllMyBucketsResult xmlns="http://doc.s3.amazonaws.com/2006-03-01/">
   <Owner>
     <ID>abc</ID>
     <DisplayName>MockS3</DisplayName>
