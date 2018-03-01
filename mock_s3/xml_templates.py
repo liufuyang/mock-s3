@@ -18,7 +18,7 @@ buckets_bucket_xml = '''\
 
 bucket_query_xml = '''\
 <?xml version="1.0" encoding="UTF-8"?>
-<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01">
+<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
   <Name>{bucket_query.bucket.name}</Name>
   <Prefix>{bucket_query.prefix}</Prefix>
   <Marker>{bucket_query.marker}</Marker>
@@ -51,7 +51,7 @@ error_no_such_bucket_xml = '''\
 
 acl_xml = '''\
 <?xml version="1.0" encoding="UTF-8"?>
-<AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01">
+<AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
   <Owner>
     <ID>123</ID>
     <DisplayName>MockS3</DisplayName>
