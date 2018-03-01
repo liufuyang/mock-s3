@@ -2,7 +2,7 @@ buckets_xml = '''\
 <?xml version="1.0" encoding="UTF-8"?>
 <ListAllMyBucketsResult xmlns="http://doc.s3.amazonaws.com/2006-03-01">
   <Owner>
-    <ID>123</ID>
+    <ID>abc</ID>
     <DisplayName>MockS3</DisplayName>
   </Owner>
   <Buckets>
@@ -35,7 +35,7 @@ bucket_query_content_xml = '''\
     <Size>{s3_item.size}</Size>
     <StorageClass>STANDARD</StorageClass>
     <Owner>
-      <ID>123</ID>
+      <ID>abc</ID>
       <DisplayName>MockS3</DisplayName>
     </Owner>
   </Contents>'''
